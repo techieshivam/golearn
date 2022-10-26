@@ -16,8 +16,9 @@ func main(){
 	
 	 sum=sum+square
 
+fmt.Println("sum of square first",i,"is ",sum) 
 	
 	}
-	fmt.Println("sum of square is",sum) 
+	fmt.Println("sum of square is",i,sum) 
 
 }
