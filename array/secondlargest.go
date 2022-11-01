@@ -14,34 +14,26 @@ func main() {
 		return
 	}
 
-	array:=make([]int,size)
-	
-	for i:=0;i<size;i++{
+	array := make([]int, size)
+
+	for i := 0; i < size; i++ {
 		fmt.Printf("Enter value of array[%d] = ", i)
 		fmt.Scanln(&array[i])
+	}
+
+	fmt.Println("Array is :", array)
+
+	large1 := 0
+	large2 := 0
+
+	large1 = array[0]
+	for i := 1; i <= size-1; i++ {
+		if large1 < array[i] {
+			large2 = large1
+			large1 = array[i]
+		} else if large2 < array[i] {
+			large2 = array[i]
 		}
-
-	fmt.Println("Array is :",array)
-
-	for i := 0; i < len(array)-1; i++ {
-		for j := 0; j < len(array)-1; j++ {
-			if array[j] < array[j+1] {
-				temp := array[j]
-				array[j] = array[j+1]
-				array[j +1] = temp
-			}
-		}
-	}	
-
-	temp1:=array[0]
-	array[0]=array[1]
-	array[1]=temp1
-
-
-	fmt.Println("second largest on first place",array)
-
-
-
-
-
+	}
+	fmt.Println("Second largest element is: ", large2)
 }
