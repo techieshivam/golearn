@@ -30,10 +30,10 @@ DONE 7. Find the repeating array elements.
 	1 0 0 0 1
 	The index of row with maximum 1s is: 1
 
-13. Bubble Sort
+KNOW 13. Bubble Sort
 14. Quick Sort
 15. Merge Sort
-16. Linear Search
+KNOW 16. Linear Search
 17. Binary Search
 DONE 18. Remove duplicates from an array.
 DONE 19. Count frequency of array elements.
