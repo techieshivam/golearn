@@ -1,21 +1,21 @@
 1. Program (*USE: Functions, Switch cases and it should be menu based)
-(i)  Prints array element
-(ii) Length of an array
-(iii) Display array in reverse order
-(iv) Maximum element from an array ({1,2,3,6,5} ==> 6)
-(v)	 Minimum element from an array
-(vi) Sum of all elements of an array
-(vii) Copy array elements to other array
-(viii) Print duplicate elements from an array
-(ix) Unique element from an array
-(x) Sort an array in ascending order
-(xi)Sort an array in descending order
+Done (i)  Prints array element
+Done (ii) Length of an array
+Done (iii) Display array in reverse order
+Done (iv) Maximum element from an array ({1,2,3,6,5} ==> 6)
+Done (v)	 Minimum element from an array
+Done (vi) Sum of all elements of an array
+Done (vii) Copy array elements to other array
+     (viii) Print duplicate elements from an array
+     (ix) Unique element from an array
+Done (x) Sort an array in ascending order
+Done (xi)Sort an array in descending order
 
-2. Seperate odd and even numbers of an array into separate arrays.
-3. Insert a new element to an array at some position.
-4. Delete an element from array.
-5. Print second largest number from an array.
-6. Find the missing number from a given array. (1,2,3,4,6,7 ==> 5)
+DONE 2. Seperate odd and even numbers of an array into separate arrays.
+DONE 3. Insert a new element to an array at some position.
+DONE 4. Delete an element from array.
+DONE 5. Print second largest number from an array.
+DONE 6. Find the missing number from a given array. (1,2,3,4,6,7 ==> 5)
 7. Find the repeating array elements.
 
 8. Matrix addition and subtraction (*USE: functions,switch cases)
@@ -35,6 +35,6 @@
 15. Merge Sort
 16. Linear Search
 17. Binary Search
-18. Remove duplicates from an array.
-19. Count frequency of array elements.
-20. Print Prime Numbers from an array.
+DONE 18. Remove duplicates from an array.
+DONE 19. Count frequency of array elements.
+DONE 20. Print Prime Numbers from an array.

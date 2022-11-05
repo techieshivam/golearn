@@ -58,11 +58,10 @@ func SumArray(array []int) int {
 	return sum
 }
 
-func CopyElements() {
-
-}
-
 func Duplicates() {
+	array := make(map[int]int)
+
+	return
 
 }
 
@@ -162,6 +161,7 @@ func main() {
 		fmt.Println("array2:", array2)
 
 	case 8:
+		fmt.Println("duplicate elements of array is", array)
 
 	case 9:
 
