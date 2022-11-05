@@ -6,8 +6,8 @@ Done (iv) Maximum element from an array ({1,2,3,6,5} ==> 6)
 Done (v)	 Minimum element from an array
 Done (vi) Sum of all elements of an array
 Done (vii) Copy array elements to other array
-     (viii) Print duplicate elements from an array
-     (ix) Unique element from an array
+DONE (viii) Print duplicate elements from an array
+DONE (ix) Unique element from an array
 Done (x) Sort an array in ascending order
 Done (xi)Sort an array in descending order
 
@@ -16,7 +16,7 @@ DONE 3. Insert a new element to an array at some position.
 DONE 4. Delete an element from array.
 DONE 5. Print second largest number from an array.
 DONE 6. Find the missing number from a given array. (1,2,3,4,6,7 ==> 5)
-7. Find the repeating array elements.
+DONE 7. Find the repeating array elements.
 
 8. Matrix addition and subtraction (*USE: functions,switch cases)
 9. Multiplication of two square(X*X) matrices.

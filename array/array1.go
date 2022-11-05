@@ -58,15 +58,31 @@ func SumArray(array []int) int {
 	return sum
 }
 
-func Duplicates() {
-	array := make(map[int]int)
+func Duplicates(array []int) int {
+	var result = make(map[int]int)
+	var num int
+	for _, num := range array {
 
-	return
+		result[num] = result[num] + 1
+		if result[num] > 1 {
+			fmt.Println("duplicate element in array is", num)
+		}
+	}
+	return num
 
 }
 
-func Unique() {
+func Unique(array []int) int {
+	var result = make(map[int]int)
+	var num int
+	for _, num := range array {
 
+		result[num] = result[num] + 1
+		if result[num] == 1 {
+			fmt.Println("unique element in array is", num)
+		}
+	}
+	return num
 }
 
 func AscendingArray(array []int) {
@@ -161,9 +177,10 @@ func main() {
 		fmt.Println("array2:", array2)
 
 	case 8:
-		fmt.Println("duplicate elements of array is", array)
+		Duplicates(array)
 
 	case 9:
+		Unique(array)
 
 	case 10:
 		AscendingArray(array)
