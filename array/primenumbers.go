@@ -22,7 +22,7 @@ func main() {
 	fmt.Println("Array is :", array)
 
 	var count int
-	for i := 0; i <= 5; i++ {
+	for i := 0; i <= size; i++ {
 		count = 0
 		for j := 2; j < array[i]/2; j++ {
 			if array[i]%j == 0 {
