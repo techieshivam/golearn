@@ -99,7 +99,7 @@ DONE 27. Print prime numbers between two numbers X and Y.
 	  1 2 1
 	 1 3 3 1
 	1 4 6 4 1   
-29. Print first 10 numbers of Fibonacci series. (0 1 1 2 3 5 8 13 21 34)
+DONE 29. Print first 10 numbers of Fibonacci series. (0 1 1 2 3 5 8 13 21 34)
 DONE 30. Display a number in reverse order.
 DONE 31. Check if a number is palindrome or not.
 DONE 32. Sum of all integer between X and Y.
