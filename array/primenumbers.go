@@ -2,6 +2,22 @@ package main
 
 import "fmt"
 
+func prime(array []int) {
+	var count, size int
+	for i := 0; i < array[size]; i++ {
+		count = 0
+		for j := 2; j < array[i]/2; j++ {
+			if array[i]%j == 0 {
+				count++
+			}
+		}
+		if count == 0 && array[i] > 1 {
+			fmt.Println("prime number in array ", array[i])
+		}
+	}
+
+}
+
 func main() {
 	var size int
 	fmt.Println("enter the size of array")
@@ -21,16 +37,5 @@ func main() {
 
 	fmt.Println("Array is :", array)
 
-	var count int
-	for i := 0; i <= size; i++ {
-		count = 0
-		for j := 2; j < array[i]/2; j++ {
-			if array[i]%j == 0 {
-				count++
-			}
-		}
-		if count == 0 && array[i] > 1 {
-			fmt.Println("prime number in array ", array[i])
-		}
-	}
+	prime(array)
 }
