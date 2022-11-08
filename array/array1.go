@@ -20,7 +20,7 @@ func ReverseArray(array []int) {
 	}
 }
 
-func Maxi(array []int) int {
+func Maximum(array []int) int {
 	if len(array) == 0 {
 		return 0
 	}
@@ -35,7 +35,7 @@ func Maxi(array []int) int {
 
 }
 
-func Mini(array []int) int {
+func Minimum(array []int) int {
 	if len(array) == 0 {
 		return 0
 	}
@@ -164,10 +164,10 @@ func main() {
 		ReverseArray(array)
 
 	case 4:
-		fmt.Println("max element is:", Maxi(array))
+		fmt.Println("max element is:", Maximum(array))
 
 	case 5:
-		fmt.Println("max element is:", Mini(array))
+		fmt.Println("max element is:", Minimum(array))
 
 	case 6:
 		fmt.Println("sum of elements of array is:", SumArray(array))
