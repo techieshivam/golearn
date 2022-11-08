@@ -14,30 +14,25 @@ func main() {
 		return
 	}
 
-	array:=make([]int,size)
-	
-	for i:=0;i<size;i++{
+	array := make([]int, size)
+
+	for i := 0; i < size; i++ {
 		fmt.Printf("Enter value of array[%d] = ", i)
 		fmt.Scanln(&array[i])
-		}
+	}
 
-	fmt.Println("Array is :",array)
+	fmt.Println("Array is :", array)
 
-fmt.Println("At which position you want to insert element:")
-var position int 
-fmt.Scanln(&position)
+	fmt.Println("At which position you want to insert element:")
+	var position int
+	fmt.Scanln(&position)
 
-array = append(array,0) 
-fmt.Println(array)
-copy(array[position+1:], array[position:]) 
-fmt.Println(array)
-array[position] = 99
+	array = append(array, 0)
+	fmt.Println(array)
+	copy(array[position+1:], array[position:])
+	fmt.Println(array)
+	array[position] = 99
 
-fmt.Println(array)
+	fmt.Println(array)
 
 }
-
-
-
-
-
