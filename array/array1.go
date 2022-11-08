@@ -71,7 +71,7 @@ func Duplicates(array []int) {
 
 }
 
-func Unique(array []int) {
+func UniqueElements(array []int) {
 	var result = make(map[int]int)
 
 	for _, num := range array {
@@ -181,7 +181,7 @@ func main() {
 		Duplicates(array)
 
 	case 9:
-		Unique(array)
+		UniqueElements(array)
 
 	case 10:
 		AscendingArray(array)
