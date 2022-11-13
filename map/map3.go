@@ -54,13 +54,6 @@ func main() {
 		gender: "M",
 		age:    18,
 	}
-	stud7 := Student{
-		roll:   7,
-		name:   "mahesh",
-		class:  10,
-		gender: "M",
-		age:    18,
-	}
 	stud8 := Student{
 		roll:   8,
 		name:   "naman",
@@ -69,20 +62,6 @@ func main() {
 		age:    18,
 	}
 
-	var roll_number int
-	fmt.Println("These are the roll_number in class")
-	fmt.Println("1")
-	fmt.Println("2")
-	fmt.Println("3")
-	fmt.Println("4")
-	fmt.Println("5")
-	fmt.Println("6")
-	fmt.Println("7")
-	fmt.Println("8")
-
-	fmt.Println("record of which student you want")
-	fmt.Scanln(&roll_number)
-
 	students := map[int]Student{
 		1: stud1,
 		2: stud2,
@@ -90,9 +69,16 @@ func main() {
 		4: stud4,
 		5: stud5,
 		6: stud6,
-		7: stud7,
 		8: stud8,
 	}
+
+	var roll_number int
+	fmt.Println("These are the roll_number in class")
+	for k, _ := range students {
+		fmt.Println("roll no", k)
+	}
+	fmt.Println("record of which student you want")
+	fmt.Scanln(&roll_number)
 
 	student_info := students[roll_number]
 
